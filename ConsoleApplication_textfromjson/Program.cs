@@ -142,7 +142,7 @@ namespace ConsoleApplication_textfromjson
                 sw.WriteLine(wh2);
                 sw.WriteLine(delim7);
             }
-
+            //ВТОРОЙ КОММИТ!
             string path7 = @"C:\Projects\Melon\MyTest13.txt";
             var nms7 = Enumerable.Range(0, sizesnames2.Length)
                 .Select(i => string.Format(" {0,10}\t", sizesnames2[i])).ToList();
@@ -163,6 +163,28 @@ namespace ConsoleApplication_textfromjson
                 sw.WriteLine(wh2);
                 sw.WriteLine(delim7);
             }
+            //ТРЕТИЙ КОММИТ
+            string path8 = @"C:\Projects\Melon\MyTest13.txt";
+            var nms8 = Enumerable.Range(0, sizesnames2.Length)
+                .Select(i => string.Format(" {0,10}\t", sizesnames2[i])).ToList();
+            var ssnms8 = "Типы размеров\t" + String.Join("", nms.ToArray());
+
+            var qh8 = Enumerable.Range(0, qountinhall2.Length)
+                .Select(i => string.Format(" {0,10}\t", qountinhall2[i])).ToList();
+            var ss28 = "Кол-во склад\t" + String.Join("", qh.ToArray());
+
+            var wh8 = Enumerable.Range(0, qountinwarh2.Length)
+               .Select(i => string.Format(" {0,10}\t", qountinwarh2[i])).ToList();
+            var wh28 = "Кол-во склад\t" + String.Join("", wh.ToArray());
+
+            using (StreamWriter sw = File.AppendText(path6))
+            {
+                sw.WriteLine(ssnms);
+                sw.WriteLine(ss2);
+                sw.WriteLine(wh2);
+                sw.WriteLine(delim7);
+            }
+
 
 
         }
