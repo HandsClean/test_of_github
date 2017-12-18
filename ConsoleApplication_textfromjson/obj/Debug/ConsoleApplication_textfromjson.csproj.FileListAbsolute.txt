@@ -7,3 +7,5 @@ C:\Projects\ConsoleApplication_textfromjson\ConsoleApplication_textfromjson\obj\
 C:\GitProjects\test_of_github\ConsoleApplication_textfromjson\bin\Debug\ConsoleApplication_textfromjson.exe.config
 C:\GitProjects\test_of_github\ConsoleApplication_textfromjson\obj\Debug\ConsoleApplication_textfromjson.exe
 C:\GitProjects\test_of_github\ConsoleApplication_textfromjson\obj\Debug\ConsoleApplication_textfromjson.pdb
+C:\GitProjects\test_of_github\ConsoleApplication_textfromjson\bin\Debug\ConsoleApplication_textfromjson.exe
+C:\GitProjects\test_of_github\ConsoleApplication_textfromjson\bin\Debug\ConsoleApplication_textfromjson.pdb

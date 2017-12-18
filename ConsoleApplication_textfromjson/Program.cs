@@ -143,6 +143,28 @@ namespace ConsoleApplication_textfromjson
                 sw.WriteLine(delim7);
             }
 
+            string path7 = @"C:\Projects\Melon\MyTest13.txt";
+            var nms7 = Enumerable.Range(0, sizesnames2.Length)
+                .Select(i => string.Format(" {0,10}\t", sizesnames2[i])).ToList();
+            var ssnms7 = "Типы размеров\t" + String.Join("", nms.ToArray());
+
+            var qh7 = Enumerable.Range(0, qountinhall2.Length)
+                .Select(i => string.Format(" {0,10}\t", qountinhall2[i])).ToList();
+            var ss27 = "Кол-во склад\t" + String.Join("", qh.ToArray());
+
+            var wh7 = Enumerable.Range(0, qountinwarh2.Length)
+               .Select(i => string.Format(" {0,10}\t", qountinwarh2[i])).ToList();
+            var wh27 = "Кол-во склад\t" + String.Join("", wh.ToArray());
+
+            using (StreamWriter sw = File.AppendText(path6))
+            {
+                sw.WriteLine(ssnms);
+                sw.WriteLine(ss2);
+                sw.WriteLine(wh2);
+                sw.WriteLine(delim7);
+            }
+
+
         }
     }
 }
